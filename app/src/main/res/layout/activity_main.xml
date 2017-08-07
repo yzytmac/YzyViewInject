@@ -4,17 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.yzy.myapplication.MainActivity">
 
     <Button
         android:id="@+id/bt"
-        android:text="bt1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-<Button
-        android:text="bt2"
+        android:layout_height="wrap_content"
+        android:text="bt1"/>
+
+    <Button
         android:id="@+id/bt2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="bt2"/>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
 
 </LinearLayout>

@@ -7,11 +7,11 @@ import java.lang.annotation.Target;
 
 /**
  * Created by yzy on 2017/8/5.
- * 根据i的绑定控件
- * 注意要在onCreate方法中调用ViewInject（this）
+ * 根据id的绑定控件
  */
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.CLASS)
 public @interface ViewInject {
     int value() default -1;
+    String text() default "";
 }
