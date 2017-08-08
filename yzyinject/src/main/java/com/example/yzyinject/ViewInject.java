@@ -12,6 +12,6 @@ import java.lang.annotation.Target;
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.CLASS)
 public @interface ViewInject {
-    int value() default -1;
+    int value();
     String text() default "";
 }
