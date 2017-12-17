@@ -8,7 +8,9 @@
 - @ViewInject(value = R.id.tv,text="我是文本")绑定控件并设置文本，注意，控件必须是textview的子类
 - @Click({R.id.bt,R.id.bt2})绑定点击事件的方法，方法名随意，参数可以为空或一个view 
 - 在onCreate方法中InjectUtils.injectActivity(this)对Activity进行注入，相当于框架的初始化，**必须执行**
-- 在onCreateView方法中InjectUtils.injectFragment(this)对Fragment进行注入，将返回值return出去，也是**必须执行**，且必须用@ContentView()的形式进行布局绑定  
+- 在onCreateView方法中InjectUtils.injectFragment(this)对Fragment进行注入，将返回值return出去，也是**必须执行**，且必须用@ContentView()的形式进行布局绑定  
+- 有任何疑问欢迎发邮件到yzytmac@163.com 欢迎提交代码  
+
 
 	    /***************************Activity*********************************/
 	    @ContentView(R.layout.activity_main)//为Activity绑定布局
